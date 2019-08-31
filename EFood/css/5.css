@@ -1,0 +1,94 @@
+#wraper {
+    background-size: 100%;
+    transition: all 2s;
+    /* 实现模糊效果 - 值越大越模糊 */
+    -webkit-filter: blur(10px);
+    /* Chrome,Opera */
+    -moz-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+}
+
+.form {
+    position: absolute;
+    top: 30%;
+    /* left: 50%;
+    transform: translate(-50%); */
+    left: 25%;
+    /* margin: 0 auto; */
+    width: 50%;
+    border-radius: 10px;
+    padding: 20px 20px;
+    background-color: rgba(52, 0, 95, 0.377);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.616);
+}
+
+.form label {
+    display: block;
+    width: 30%;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    margin: 10px 0;
+    font-size: 18px;
+    color: #fff;
+}
+
+.form input {
+    width: 40%;
+    height: 40px;
+    margin: 10px 0;
+    background-color: #ffffff00;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    outline: none;
+    padding: 0 10px;
+    font-size: 18px;
+    color: #eee;
+}
+
+.form textarea {
+    width: 50%;
+    height: 200px;
+    margin: 10px 0;
+    background-color: #ffffff00;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 18px;
+    color: #eee;
+}
+
+.form button {
+    width: 70%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(42, 0, 48, 0.438);
+    border: none;
+    border-radius: 20px;
+    color: #eee;
+    font-size: 18px;
+    margin: 10px 0 10px 30%;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: rgba(42, 0, 48, 0.548);
+}
+
+.high {
+    float: right;
+    color: red;
+}
+
+.msg {
+    float: right;
+}
+
+.onError {
+    color: red;
+}
+
+.onSuccess {
+    color: green;
+}

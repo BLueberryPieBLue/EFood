@@ -1,0 +1,97 @@
+
+.wel{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+#background-3{
+    background: url("../images/beijing.jpg") no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+.box-1{
+    width: 50%;
+    height: 900px;
+    float: left;
+    overflow: hidden;
+}
+button{
+	transform: translateZ(30px);
+	cursor: pointer;
+	font-weight: bold;
+	color: #fff;
+	padding: .5em 1em;
+	border-radius: 100px;
+	position: relative;
+}
+button:hover{
+	transform: translateZ(40px);
+	color: #F1F1F1;
+}
+.box-2{
+    width: 50%;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    top: 25%;
+}
+#git{
+    background: url("../img/ground.png");
+}
+
+.le-1{
+    position: relative;
+}
+.le-2{
+    overflow: hidden;
+    height: 73%;
+}
+
+.flrg{
+    float: right;
+    width: 300px;
+    background: rgba(255,255,255,.6);
+    text-align: center;
+    padding-bottom: 40px;
+    border-radius: 4px;
+}
+.a{
+    margin: auto;
+}
+.flrg>.a,.flrg-1>.a{
+    padding: 10px;
+}
+.flrg>.a>.in-1,.flrg-1>.a>.in-1{
+    outline: none;
+    opacity: 0.6;
+    width: 238px;
+    height: 33px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    color: black;
+    padding-left: 15px;
+}
+.hr{
+    width: 91%;
+    height: 2px;
+    background: rgba(255,255,255,0.6);
+    margin: auto;
+}
+.flrg>.a>a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #545454;
+}
+.flrg-1{
+    float: left;
+    width: 300px;
+    background: rgba(255,255,255,.6);
+    text-align: center;
+    padding-bottom: 40px;
+    border-radius: 4px;
+    position: absolute;
+    overflow: hidden;
+}

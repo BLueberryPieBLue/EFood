@@ -1,0 +1,15 @@
+drop database Efood;
+
+create database Efood charset='utf8';
+use Efood;
+CREATE TABLE user (
+id INT AUTO_INCREMENT PRIMARY KEY,
+ username VARCHAR(500) NOT NULL,
+password VARCHAR(500) NOT NULL
+) engine=InnoDB DEFAULT CHARSET=utf8;
+CREATE TABLE dish (
+id INT AUTO_INCREMENT PRIMARY KEY,
+ dishname VARCHAR(500) NOT NULL,
+price VARCHAR(500) NOT NULL
+) engine=InnoDB DEFAULT CHARSET=utf8;
+

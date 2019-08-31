@@ -1,0 +1,62 @@
+*{margin: 0;padding: 0;}
+body{
+	color: #000;
+	font-family: "微软雅黑";
+    background: url(../images/b.jpg) no-repeat;
+    background-size: cover;
+}
+a:link,a:visited{
+	text-decoration: none;
+	color: #404A4B;
+	margin: 12px;
+	font-size: 14px;
+}
+a:hover{
+	color:#80DBE7;
+}
+.button{
+	transform: translateZ(30px);
+	cursor: pointer;
+	font-weight: bold;
+	color: #fff;
+	padding: .5em 1em;
+	border-radius: 100px;
+	position: relative;
+}
+.button:hover{
+	transform: translateZ(40px);
+	color: #F1F1F1;
+}
+input{
+-webkit-appearance: textfield;
+-webkit-box-sizing: content-box;
+font-family: inherit;
+font-size: 100%;
+height: 28px;
+width:240px;
+border-color: #E2E8FF;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+display: none;
+}
+.form{
+	width: 320px;
+	height: 310px;
+	padding: 10px;
+	background:#f2f2f2;
+	position: absolute;
+	top: 200px;
+	left: 300px;
+	color: #000;
+}
+.form1 {
+    width: 320px;
+    height: 384px;
+    padding: 10px;
+    background: #f2f2f2;
+    position: absolute;
+    top: 188.4px;
+    left: 440px;
+    color: #000;
+}

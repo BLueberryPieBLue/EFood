@@ -1,0 +1,220 @@
+<%@ page import="java.util.*" %>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>
+		商家信息
+	</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script type="text/javascript" src="java/js.js"></script>
+</head>
+<body>
+	<div>
+		<div id="wq">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/wq.jpg"> <br />
+			<br /> <a href="login.jsp">登录</a> <a href="regist.jsp">注册</a>
+		</div>
+		<div id="top">
+			<div id="topfirst">
+				<ul class="ull">
+					<li><a href="login.jsp">登录</a></li>
+					<li class="line">|</li>
+					<li><a href="regist.jsp">注册</a></li>
+				</ul>
+				<ul style="position: relative; left: 160px">
+				<li><a href="home.jsp">Home</a></li>
+					<li class="line">|</li>
+					<li><a href="main">我要订餐</a></li>
+					<li class="line">|</li>
+					<li><a href="cart">我的订餐</a></li>
+					<li class="line">|</li>
+					<li><a href="">我的二维码</a></li>
+					<li class="line">|</li>
+					<li><a href="">智能取餐柜查询</a></li>
+					<li class="line">|</li>
+					<li><a href="main">窗口位置查询</a></li>
+					<li class="line">|</li>
+					<li><a href="">商家中心</a></li>
+					<li class="line">|</li>
+					<li><a href="second.jsp">问题反馈</a></li>
+				</ul>
+			</div>
+		</div>
+<div id="first">
+		<div class="logo">
+			<img src="images/logo.gif">
+			<p class="logo1">E+食堂</p>
+		</div>
+		<div id="search">
+		  <form>
+		  	<input type="search" placeholder="搜索订餐信息" name="search1"/>
+		  	<input type="submit" class="button" />
+		  </form>
+		</div>
+</div>
+<div style="height:40px;width: 100%;text-align: center;">
+	<h1>商品评价</h1>
+</div><br>
+<div id="second">
+	<div class="left">
+		<img src="images/food18.jpg">
+	</div>
+	<div class="right">
+	 <p class="ft1_1"><a href="">FAMILY烘焙坊</a> </p><br>
+			<hr/><br>
+			<p class="ft1_2">&nbsp;&nbsp;&nbsp;&nbsp;地址：昌平区南丰路沙河地铁站对面物美超市一层</p>
+			<br>
+			<p class="ft1_2">&nbsp;&nbsp;&nbsp;&nbsp;电话：88008880</p>
+			<br>
+			<p class="ft1_2">&nbsp;&nbsp;&nbsp;&nbsp;营业时间：周一至周日 09：00-21:00</p>
+			<br>
+			<p class="ft1_2">&nbsp;&nbsp;&nbsp;&nbsp;消费：人均55</p>
+			<br>
+			<hr/>
+			<br>
+			<a href="" title="点击查看更多优惠">店家优惠：</a><br><br>
+            <p class="ft1_2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;满十减九</p>
+			<br>
+			<p class="ft1_2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;满二十减一</p>
+			<br>
+		</div>
+</div>
+<br>
+
+<div style="height:40px;width: 100%;text-align: center;">
+	<h1>用户评价</h1>
+</div><br>
+<hr>
+<div class="dianping">
+	<div class="ping">
+		<div style="display:inline-block;float: left;"><img src="images/image.jpg"></div>
+		<br>
+		<p style="font-size: 15px;padding: 10px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用户名：oqz13810449102</p>	
+		<p style="font-size: 14px; padding: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;账号：11212131</p>
+		<p style="font-size: 14px; padding: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;星级：五星</p>
+		<p style="font-size: 14px; padding: 5px;">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;评价：型还是不错的，就是没定住，一切都散了，蛋糕的夹层是山楂酱，有些酸。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2012年5月八日</p><hr>
+		<hr>
+		<div style="display:inline-block;float: left;"><img src="images/image1.jpg"></div>
+		<br>
+		<p style="font-size: 15px;padding: 10px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用户名：oqz13810449102</p>	
+		<p style="font-size: 14px; padding: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;账号：11212131</p>
+		<p style="font-size: 13px; padding: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;星级：五星</p>
+		<p style="font-size: 14px; padding: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;评价：型还是不错的，就是没定住，一切都散了，蛋糕的夹层是山楂酱，有些酸。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2012年5月八日</p>
+		<hr>
+		<hr><hr>
+		<div style="display:inline-block;float: left;"><img src="images/image2.jpg"></div>
+		<br>
+		<p style="font-size: 15px;padding: 10px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用户名：oqz13810449102</p>	
+		<p style="font-size: 14px; padding: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;账号：11212131</p>
+		<p style="font-size: 13px; padding: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;星级：五星</p>
+		<p style="font-size: 14px; padding: 5px;">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;评价：型还是不错的，就是没定住，一切都散了，蛋糕的夹层是山楂酱，有些酸。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2012年5月八日</p><hr>
+		<hr><hr><hr>
+		<div style="display:inline-block;float: left;"><img src="images/image3.jpg"></div>
+		<br>
+		<p style="font-size: 15px;padding: 10px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用户名：oqz13810449102</p>	
+		<p style="font-size: 14px; padding: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;账号：11212131</p>
+		<p style="font-size: 13px; padding: 5px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;星级：五星</p>
+		<p style="font-size: 14px; padding: 5px;">	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;评价：型还是不错的，就是没定住，一切都散了，蛋糕的夹层是山楂酱，有些酸。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2012年5月八日</p><hr>
+		<hr>
+	</div>
+</div>
+<div style="margin: 0 auto;width: 800px;">
+	<br/>
+<p style="color: #111ab2">
+我的评价：</p>
+<br/>
+	<input type="text" name="pin" placeholder="请输入你的评价" style="width: 600px;height: 200px;">
+	<button class="button">提交</button>
+</div>
+<div id="end"><hr/>
+		<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<div class="end1">
+			<h2>用户帮助</h2><br/>
+			<a href="">申请退款</a>
+			<br/>
+			<a href="">查看密码</a><br/>
+			<a href="">常见问题</a><br/>
+			<a href="">用户协议</a><br/>
+			<a href="">隐私政策</a><br/>
+			<a href="">反诈骗公告</a><br/><br/>
+		</div>
+		<div class="end1">
+			<h2>商家合作</h2><br/>
+			<a href="">美食商家入驻</a><br/>
+			<a href="">开店提醒</a><br/>
+			<a href="">综合商家入驻</a><br/>
+			<a href="">商家开票申请</a><br/>
+			<a href="">使用E+排队</a><br/>
+			<a href="">E+点评</a><br/><br/>
+		</div>
+		<div class="end1">
+			<h2>代理商加盟</h2><br/>
+			<a href="">智能支付</a><br/>
+			<a href="">非餐饮代理商招募</a><br/>
+			<a href="">E+联盟</a><br/>
+			<a href="">线上分销</a><br/>
+			<a href="">服务商招募</a><br/>
+			<br/>
+			<br/>
+		</div>
+		<div class="end1">
+			<h2>公司信息</h2><br/>
+			<a href="">关于我们</a><br/>
+			<a href="">投资者关系</a><br/>
+			<a href="">加入我们</a><br/>
+			<a href="">法律声明</a><br/>
+			<a href="">价格说明募</a><br/>
+			<a href="">E+点评规则</a><br/>
+			<a href="">E+服务条款</a><br/>
+		</div>
+		<div class="end1">
+		<h4>对网站的印象如何</h4>
+		<form>
+	<input type="radio" name="11" value="1"checked="checked">
+	非常好<br/>
+	<input type="radio" name="11" value="2">
+	特别好<br/>
+</form>
+<h4>你喜欢什么机型</h4>
+<form action="1.html" method="post">
+	<label for="zhang"></label>
+	<input type="checkbox" name="11" value="1" checked="checked">
+	游戏本<br/>
+	<input type="checkbox" name="11" value="2" checked="checked">
+	轻薄本<br/>
+	<input type="checkbox" name="11" value="3">
+	都喜欢<br/>
+		<script type="text/javascript">
+		function show()
+{
+	alert("感谢您的支持");
+}
+	</script>
+	<input type="submit" onclick="show()" value="登录">
+	<input type="reset" value="重新填写"/>
+		<input type="submit" onclick="show()" name="submit"/>
+</form>		<input type="text" list="ad" placeholder="请输入所在地区" />
+		<datalist id="ad">
+	<option>中国</option>
+<option>美国</option>
+<option>日本</option>
+
+</datalist>
+	</div>
+<div style="background-color: #a2a2a2;font-size: 12px; text-align: center;width: 100%">
+	<br>
+	<p>
+山东理工大学&nbsp;|&nbsp;软件1705&nbsp;|&nbsp;王青&nbsp;|&nbsp;联系电话1234567890x</p>
+	<p>版权所有： 2019-9999 王青集团&nbsp;|&nbsp;法律公告&nbsp;|&nbsp;隐私保护&nbsp;|&nbsp;产品安全</p>
+	<br/>
+</div>
+
+	</div>
+</div>
+
+</body>
+</html>
